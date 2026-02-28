@@ -1,0 +1,10 @@
+.env
+venv/
+chroma_naive/
+chroma_advanced/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pkl
+.claude/
+_inject_outputs.py
