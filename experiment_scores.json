@@ -1,0 +1,62 @@
+{
+  "0: Baseline (1024/200, K=5, α=0.5)": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.8218011900300262,
+    "context_recall": 0.8666666666666667,
+    "context_precision": 0.7053240740188862
+  },
+  "1: Chunk 512/100": {
+    "faithfulness": 0.7555555555555554,
+    "answer_relevancy": 0.754899687930674,
+    "context_recall": 0.7666666666666667,
+    "context_precision": 0.6327380951806845
+  },
+  "2: Chunk 2048/200": {
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.7822476716748682,
+    "context_recall": 0.8333333333333334,
+    "context_precision": 0.744027777722603
+  },
+  "3: Top-K=3": {
+    "faithfulness": 0.7688888888888888,
+    "answer_relevancy": 0.7571417786587079,
+    "context_recall": 0.7666666666666667,
+    "context_precision": 0.6444444443883331
+  },
+  "4: Top-K=10": {
+    "faithfulness": 0.85,
+    "answer_relevancy": 0.8425291905279145,
+    "context_recall": 0.9666666666666667,
+    "context_precision": 0.7706481480964281
+  },
+  "5: α=0.0 (BM25 only)": {
+    "faithfulness": 0.6944444444444444,
+    "answer_relevancy": 0.7025387464693283,
+    "context_recall": 0.8,
+    "context_precision": 0.5898611110606213
+  },
+  "6: α=0.3": {
+    "faithfulness": 0.7722222222222221,
+    "answer_relevancy": 0.7918999727183725,
+    "context_recall": 0.7666666666666667,
+    "context_precision": 0.7068518517938086
+  },
+  "7: α=0.7": {
+    "faithfulness": 0.8555555555555555,
+    "answer_relevancy": 0.8156607586180783,
+    "context_recall": 0.9,
+    "context_precision": 0.7403240740204531
+  },
+  "8: α=1.0 (Vector only)": {
+    "faithfulness": 0.85,
+    "answer_relevancy": 0.8764055280807248,
+    "context_recall": 0.9,
+    "context_precision": 0.7051851851372113
+  },
+  "9: Reranking": {
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.8690684707809714,
+    "context_recall": 0.9666666666666667,
+    "context_precision": 0.8783333332746205
+  }
+}

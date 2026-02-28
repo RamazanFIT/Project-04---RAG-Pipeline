@@ -1,0 +1,5 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (1998 > 512). Running this sequence through the model will result in indexing errors
+/Users/ramazan/Desktop/nfactorial_project_4/run_pipeline.py:104: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the `langchain-huggingface package and should be used instead. To use it run `pip install -U `langchain-huggingface` and import as `from `langchain_huggingface import HuggingFaceEmbeddings``.
+  embeddings = HuggingFaceEmbeddings(
+/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:400: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-91153-7ro2_r9g'}
+  warnings.warn(

@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+chromadb
+ragas
+datasets
+sentence-transformers
+FlagEmbedding
+docling
+rank-bm25
+openai
+python-dotenv
+pandas
+matplotlib
+neo4j
